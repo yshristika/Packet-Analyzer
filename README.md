@@ -1,0 +1,2 @@
+# Packet-Analyzer
+This project is the simulation of wireshark. The pktanalyzer program will extract and display the different headers of the captured packets in the file datafile. First, it displays the ethernet header fields of the captured frames. Second, if the ethernet frame contains an IP datagram, it prints the IP header. Third, it prints the packets encapsulated in the IP datagram. TCP, UDP, or ICMP packets can be encapsulated in the IP packet.
